@@ -50,8 +50,8 @@ int main(int argc, char *argv[])
 {
     if (argc < 2 || hasOption("-h", argc, argv) == true || hasOption("--help", argc, argv) == true)
     {
-        printf("Usage: omcLogger [Options]... [File]\n");
-        printf("Example: omcLogger -t log.log\n");
+        printf("Usage: logger [Options]... [File]\n");
+        printf("Example: logger -t log.log\n");
         printf("\n");
         printf("Options:\n");
         printf("\t-h, --help: Shows this help message.\n");
